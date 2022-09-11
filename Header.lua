@@ -1,23 +1,23 @@
 bot_raw = {}
 
-bot_raw["BOTNAME1"] = {
+bot_raw["anakvita1"] = {
 --=======SETUP=======--
 webhooks = {
-  ["LINK"]  = '',
+  ["LINK"]  = 'https://discord.com/api/webhooks/1018511939636314183/aY9FLPdf3cLFgtxEBrcLwdgu4Cb282krGHlZYf2jwJ04o4Btdp7zZsBpJjxI4mAU3QnD',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
-  ["Loop"] = true,
+  ["World"] = {"tuq51","qlofq","zgfxb","qnghwjlj","wsmpi","mwplr","rugfe","sgrcanebibit1","yydbq","xdhyk"},
+  ["Door"] = 'yasa',
+  ["Loop"] = false,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "savedlkey",
+                ["Door"] = "manfaat",       --Mode 1
+                ["Path_Seed"] = 846,
+                ["Path_Pack"] = 1422
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -32,7 +32,7 @@ bot_config = {
 },
 ------------------------
 bot_mode = {
-  ["Block"] = 5666,
+  ["Block"] = 4584,
   ["Type"] = 'fg',
   ["Tile_Hit"] = 5,
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
@@ -56,7 +56,7 @@ bot_environment = {
             ["Name"] = 'world_lock',
             ["Price"] = 2000,
             ["Item_List"] = {242},
-            ["Limit"] = 3,
+            ["Limit"] = 5,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
@@ -65,7 +65,7 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {
