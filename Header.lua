@@ -5,7 +5,7 @@ bot_raw["BOTNAME1"] = {
 webhooks = {
   ["LINK"]  = '',
   ["EDIT"]  = false
-}
+},
 -----------------------
 bot_config = {
   ["World"] = {"FARM1"},
@@ -29,7 +29,7 @@ bot_config = {
                 ["Path_Seed"] = 20
               }
              }
-}
+},
 ------------------------
 bot_mode = {
   ["Block"] = 5666,
@@ -37,14 +37,14 @@ bot_mode = {
   ["Tile_Hit"] = 5,
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
-}
+},
 ------------------------
 event = {
   ["Anti_Toxic_Waste"] = true,
   ["Event"] = true,
   ["Item_Event"] = {},
   ["Limit"] = 100
-}
+},
 ------------------------
 bot_environment = {
   ["Trash"] = {
